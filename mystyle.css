@@ -16,6 +16,11 @@ h3 {
     text-align: center;
 }
 
+img {
+  height: 300px;
+  width: 300px;
+}
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -130,3 +135,16 @@ h3 {
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {background-color:gold;}
+
+  .flex-container3 {
+      display: flex;
+      justify-content: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      flex-wrap: wrap;
+      
+  }
+
+  .flex-container3 > img:hover {
+    border-color: black;
+  }
