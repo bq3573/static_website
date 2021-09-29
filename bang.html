@@ -1,0 +1,30 @@
+<html>
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="bang.html">Bang!</a>
+  <a href="monster.html">Monster Energy</a>
+  <a href="redbull.html">Redbull</a>
+  <a href="zoa.html">Zoa</a>
+</div>
+
+<h1 id="main-title">Bang!</h1>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+   
+</body>
+</html> 
