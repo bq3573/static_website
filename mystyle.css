@@ -147,6 +147,7 @@ img {
   #bang-can {
     width: 750px;
     height: 500px;
+    border: 1px solid red;
     
   }
 
@@ -173,3 +174,6 @@ img {
    height: 500px;
  }
 
+ #photo-main {
+   border: 1px solid red
+ }
