@@ -4,12 +4,20 @@
     margin-right: auto;
 }
 
+#main-p {
+  margin-left: 95px;
+  margin-right: 95px;
+  background-color: darkgrey;
+  border: 3px solid black;
+}
+
+
 body {
   font-family: "Lato", sans-serif;
 }
 
 html {
-    background-image: url(images/mockaroon-YqUeLG7fMr4-unsplash.jpg);
+    background-image: url(images/rm255-sasi-27.jpg);
 }
 
 h3 {
@@ -20,6 +28,7 @@ img {
   height: 300px;
   width: 300px;
 }
+
 
 .sidenav {
   height: 100%;
@@ -144,12 +153,22 @@ img {
       flex-wrap: wrap;
   }
 
+  #photo-main:hover {
+    transform: scale(1.2);
+  }
+
   #bang-can {
     width: 750px;
     height: 500px;
-    border: 1px solid red;
+    border: 1px solid black;
     
   }
+
+
+
+  /* #bang-can:hover {
+    transform: scale(1.2);
+  } */
 
   .flex-container4 {
     display: flex;
@@ -174,6 +193,10 @@ img {
    height: 500px;
  }
 
+ #nutrition-facts:hover {
+  transform: scale(1.2);
+}
+
  #photo-main {
-   border: 1px solid red
+   border: 1px solid black
  }
