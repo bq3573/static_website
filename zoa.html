@@ -1,38 +1,38 @@
 <html>
   <title>Zoa</title>
 <head>
+    <link rel="stylesheet" href="header.css"> 
     <link rel="stylesheet" href="mystyle.css">
 </head>
+<header>
+  <div class="flex-container-head">
+  <h1 id="main-title">Zoa</h1>
+  <a href="index.html">
+    <button class="nav-but">Home</button>
+  </a>
+  <a href="bang.html">
+  <button class="nav-but">Bang</button>
+  </a>
+  <a href="monster.html">
+  <button class="nav-but">Monster</button>
+  </a>
+  <a href="redbull.html">
+  <button class="nav-but">Redbull</button>
+  </a>  
+  <a href="zoa.html">
+  <button class="nav-but">Zoa</button> 
+  </a>
+  <a href="review.html">
+    <button class="nav-but">Leave a Review</button> 
+  </a>
+  </div> 
+</header>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <body>
-
-
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="index.html">Home</a>
-  <a href="bang.html">Bang!</a>
-  <a href="monster.html">Monster Energy</a>
-  <a href="redbull.html">Redbull</a>
-  <a href="zoa.html">Zoa</a>
-</div>
-
-<h1 id="main-title">Zoa</h1>
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-
-<script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-</script>
-<br>
-<br>
 <h3>So what's a Zoa?</h3>
 <br>
 <div class="flex-container4">
-  <p class="item">"Each 16-ounce can of ZOA boasts a clean blend of green tea and green unroasted coffee, added electrolytes and amino acids, as well as carefully selected superfoods like turmeric, camu camu and acerola. For the ZOA team, focusing on the best ingredients also means avoiding any preservatives."
+  <p id="main-p">"Each 16-ounce can of ZOA boasts a clean blend of green tea and green unroasted coffee, added electrolytes and amino acids, as well as carefully selected superfoods like turmeric, camu camu and acerola. For the ZOA team, focusing on the best ingredients also means avoiding any preservatives."
   </p>
   <img id="bang-can" src="images/106929376-1629230695462-zoa.jpg"></img>
   <img id="nutrition-facts"src="images/zoa-nutrition.jpg"></img>
@@ -46,19 +46,10 @@ function closeNav() {
       <ul>Super Berry</ul>
       <ul>Wild Orange</ul>
     </div>
-    <div id="input-text">
-    <form class="review"action="/action_page.php" id="usrform">
-      Leave a Review for Zoa Energy Drink:
-      <input type="submit">
-    </form>
-    <br>
-    <textarea rows="4" cols="50" name="comment" form="usrform">
-    </textarea>
-    </div>
-    <br>
-    <br>
+    
 
 </body>
+<hr>
 <div id="footer">
   <em>Information Provided By:</em>
   <ul>
