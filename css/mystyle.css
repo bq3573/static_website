@@ -87,7 +87,7 @@ img {
       flex-wrap: wrap;
   }
 
-  #photo-main:hover {
+  .photo-main:hover {
     transform: scale(1.2);
     animation-name: border-swag;
     animation-duration: 5s;
@@ -145,7 +145,7 @@ img {
   transform: scale(1.2);
 }
 
- #photo-main {
+ .photo-main {
    border: 5px solid black
  }
 
