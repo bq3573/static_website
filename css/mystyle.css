@@ -4,7 +4,7 @@
     margin-right: auto;
 } */
 
-#main-p {
+.main-p {
   color: black;
   font-family: 'Raleway',sans-serif;
   font-size: 18px;
@@ -105,7 +105,7 @@ img {
     100% {border-color:red; left:0px; top:0px;}
    }
 
-  #bang-can {
+  .bang-can {
     width: 750px;
     height: 500px;
     border: 1px solid black;
@@ -136,12 +136,12 @@ img {
     border: 1px black;
   }
 
- #nutrition-facts {
+ .nutrition-facts {
    width: 300;
    height: 500px;
  }
 
- #nutrition-facts:hover {
+ .nutrition-facts:hover {
   transform: scale(1.2);
 }
 

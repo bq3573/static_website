@@ -1,6 +1,7 @@
 #main-title {
 	font-size: 50px;
 	font-weight: 700;
+    font-family:'Raleway',serif;
 	letter-spacing: .01em;
 	text-shadow: .022em .022em .022em #111;
 	color: black;
@@ -62,7 +63,7 @@ header::before {
     border-radius:0.12em;
     box-sizing: border-box;
     text-decoration:none;
-    font-family:'Roboto',sans-serif;
+    font-family:'Raleway',sans-serif;
     font-weight:300;
     font-size: 20px;
     color:#FFFFFF;
